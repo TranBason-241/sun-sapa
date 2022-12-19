@@ -8,20 +8,6 @@ img {
   margin: 0 auto;
   display: block; }
 
-.img_mid {
-  max-width: 100%;
-  width: 1140px;
-  height: auto;
-  margin: 0 auto;
-  display: block; }
-
-.img_only {
-  max-width: 100%;
-  width: 1320px;
-  height: auto;
-  margin: 0 auto;
-  display: block; }
-
 .text_content {
   width: 700px;
   max-width: 100%;
@@ -68,7 +54,7 @@ img {
 
 .group_image_full {
   margin: 0 auto;
-  width: 100%;
+  width: 1920px;
   max-width: 100%;
   height: auto;
   position: relative; }
@@ -112,14 +98,4 @@ img {
 .ss1_img_2 {
   margin-top: -20%; }
 
-.img_thu_gon {
-  width: 47px;
-  height: 56px;
-  position: relative;
-  margin: 20px auto; }
-
-.ss_1_fake_bg_1 {
-  background-image: url("../images/section_1_bg_fake_1.png");
-  background-size: contain; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=index.css.map */
