@@ -1,0 +1,120 @@
+.top {
+    // background-color: #fdfaee;
+    background-position: bottom;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.text_content {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+.text_title {
+    width: 860px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+.group_image_header {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    // margin: 0 auto 3%;
+    position: relative;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    img:first-child {
+        position: initial;
+    }
+}
+
+.group_image {
+    margin: 0 auto;
+    width: 1040px;
+    max-width: 100%;
+    height: auto;
+    // margin: 0 auto 3%;
+    position: relative;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    img:first-child {
+        position: initial;
+    }
+}
+
+.top_content {
+    margin-top: -30%;
+    position: relative;
+}
+
+.top_img_1 {
+    margin-top: -30%;
+}
+
+/// center
+
+.center {
+    // height: 5000px;
+    background-color: #fdfaee;
+    background-image: url("../images/bg_2.png");
+    background-size: cover;
+    margin-top: -50%;
+
+    .pointer {
+        width: 44px;
+        height: 131px;
+    }
+    .center_container {
+        // background-color: red;
+        padding-top: 50%;
+    }
+}
+//section 1
+.section_1 {
+    background-image: url("../images/bg_section_1_content.png");
+    // background-color: red;
+    background-position: top;
+}
+.group_text_img {
+    margin: 0 auto;
+    width: 1040px;
+    img {
+        width: 445px;
+        height: 300px;
+        float: right;
+        margin-left: 20px;
+    }
+}
+.ss1_img_2 {
+    margin-top: -20%;
+}
+.ss1_img_3 {
+}
+
+//section 2
+.section_2 {
+    // height: 1000px;
+    // background-image: url("../images/bg_section_2_content.png");
+    // background-color: red;
+    // background-position: top;
+}
