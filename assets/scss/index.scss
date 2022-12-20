@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .my_container {
     background-image: url("../images/bg_king.png") !important;
     background-size: cover;
@@ -177,36 +180,6 @@
 //     display: none;
 // }
 
-.click_area {
-    position: absolute;
-    // background-color: rgba(105, 100, 100, 0.144);
-    height: 60px;
-    width: 130px;
-    right: 33%;
-    top: 63%;
-    z-index: 500;
-    cursor: pointer;
-}
-
-.click_area2 {
-    background-color: rgb(140, 110, 160);
-    height: 30px;
-    width: 130px;
-    right: 23%;
-    top: 63%;
-}
-
-// #chi_tiet:hover {
-//     background-color: rgb(177, 21, 21);
-//     cursor: pointer;
-// }
-
-.click_area:hover + .chi_tiet {
-    // background-color: rgba(177, 21, 21, 0.096);
-    cursor: pointer;
-    filter: brightness(1.2);
-}
-
 //section -----1
 .section_1 {
     background-position: top;
@@ -226,6 +199,9 @@
     margin: 20px auto;
     // margin-top: -5%;
     display: block;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
 }
 
 .img_thu_gon_1 {
@@ -236,11 +212,21 @@
     margin: 20px auto;
     margin-top: -5%;
     bottom: 0;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
 }
 .ss1_img_2 {
     margin-top: -24%;
 }
 
+.section_1_detail {
+    display: none;
+    transition: all 2s;
+}
+.section_1_detail_active {
+    display: block;
+}
 //------section 2
 
 // config
@@ -313,4 +299,63 @@
         margin-bottom: 0;
     }
     padding-bottom: 20px;
+}
+
+// button
+
+.click_area {
+    position: absolute;
+    // height: 60px;
+    height: 5%;
+    width: 7%;
+    z-index: 500;
+    cursor: pointer;
+}
+
+.click_area_1 {
+    right: 32.5%;
+    top: 63%;
+    background-color: rgba(255, 0, 0, 0.079);
+}
+
+.click_area_1:hover + .chi_tiet_1 {
+    // background-color: rgba(177, 21, 21, 0.096);
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+.click_area_2 {
+    right: 53.5%;
+    top: 49%;
+    background-color: rgba(255, 0, 0, 0.079);
+}
+
+.click_area_2:hover + .chi_tiet_2 {
+    // background-color: rgba(177, 21, 21, 0.096);
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+.click_area_3 {
+    right: 15%;
+    top: 52%;
+    background-color: rgba(255, 0, 0, 0.079);
+}
+
+.click_area_2:hover + .chi_tiet_3 {
+    // background-color: rgba(177, 21, 21, 0.096);
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+.click_area_4 {
+    right: 72%;
+    top: 28%;
+    background-color: rgba(255, 0, 0, 0.079);
+}
+
+.click_area_4:hover + .chi_tiet_4 {
+    // background-color: rgba(177, 21, 21, 0.096);
+    cursor: pointer;
+    filter: brightness(1.2);
 }
