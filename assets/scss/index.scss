@@ -426,11 +426,17 @@ html {
 }
 
 .may_to_right {
-    animation: may_to_right 20s linear infinite;
+    animation: may_to_right 25s linear infinite;
+}
+.may_to_right_2 {
+    animation: may_to_right 25s 0s linear infinite;
+}
+.may_to_right_3 {
+    animation: may_to_right 35s 0s linear infinite;
 }
 @keyframes may_to_right {
     0% {
-        left: -30%;
+        left: -60%;
     }
     100% {
         left: 110%;
