@@ -438,7 +438,7 @@ html {
   .center .pointer {
     width: 19px;
     height: auto;
-    margin-top: -10%; }
+    margin-top: 0%; }
 
   .img_thu_gon,
   .img_thu_gon_1 {
